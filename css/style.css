@@ -1,0 +1,470 @@
+
+#intest
+{
+display:none;
+padding:5px;
+position:absolute;
+background-color:white;
+height:300px;
+min-width:1000px;
+border:solid 2px blue;
+text-align:center;
+left:20px;
+right:20px;
+top:5px;
+color:blue;
+}
+
+#film
+{
+left:3%;
+border:solid 1px white;
+position:absolute;
+height:30px;
+background-color:black;
+width:22%;
+}
+
+#imm
+{
+border:solid 1px white;
+left:75%;
+position:absolute;
+height:30px;
+background-color:black;
+width:22%;
+}
+
+#pers
+{
+border:solid 1px white;
+left:27%;
+position:absolute;
+height:30px;
+background-color:black;
+width:22%;
+}
+
+#premi
+{
+border:solid 1px white;
+left:51%;
+position:absolute;
+height:30px;
+background-color:black;
+width:22%;
+}
+
+
+
+.imagegallery 
+{
+  position    : relative;
+  width       : 100%; /* spazio orizzontale visibile della gallery */
+  height      : 520px;
+  overflow    : hidden;
+}
+
+.imagegallery ul
+{
+  position    : absolute;
+  top         : 0;
+  left        : 0;
+  height      : 500px;
+  width       : 100%;
+  
+  overflow-x  : auto;
+  overflow-y  : hidden;
+  
+  list-style-type : none;
+  white-space     : nowrap;
+  font-size       : 0;
+}
+
+
+ul.jquery
+{
+  overflow   : hidden;
+  width      : auto;
+}
+
+.imagegallery ul li
+{
+  display         : -moz-inline-box; /* Firefox 2 */
+  display         : inline-block;
+  vertical-align  : middle;
+  padding         : 1px;
+}
+
+/**
+ * haslayout trigger su IE6 e 7.
+ */
+.imagegallery ul li  { *display : inline; }
+
+
+
+#menu
+{
+padding:5px;
+position:absolute;
+background-color:royalblue;
+height:30px;
+min-width:1000px;
+border:solid 2px blue;
+text-align:center;
+left:20px;
+right:20px;
+top:350px;
+color:white;
+display: none;
+}
+
+
+#img1
+{
+float:left;
+
+}
+
+
+#corpo
+{
+margin-bottom:200px;
+display: none;
+height:auto;
+font-size:20px;
+text-align:center;
+padding:10px;
+position:absolute;
+top:450px;
+left:20px;
+right:20px;
+min-width:1020px;
+border:5px solid blue;
+background:gray;
+color:gold;
+overflow: hidden;
+}
+
+#I
+{
+border:solid 1px white;
+top:5%;
+left:5%;
+right:5%;
+height:auto;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+
+#II
+{
+padding:1%;
+margin:1%;
+border:solid 1px white;
+top:400px;
+left:5%;
+right:5%;
+height:auto;
+background-color:gold;
+width:96%;
+margin:1%;
+color:black;
+}
+
+#III
+{
+padding:1%;
+border:solid 1px white;
+top:450px;
+left:5%;
+right:5%;
+height:auto;
+background-color:black;
+width:96%;
+margin:1%;
+}
+
+#IV
+{
+padding:1%;
+border:solid 1px white;
+top:950px;
+left:5%;
+right:5%;
+height:auto;
+background-color:gold;
+width:96%;
+margin:1%;
+color:black;
+}
+
+#V
+{
+padding:1%;
+border:solid 1px white;
+top:1500px;
+left:5%;
+right:5%;
+height:auto;
+background-color:black;
+width:96%;
+margin:1%;
+}
+
+#VI
+{
+padding:1%;
+border:solid 1px white;
+top:1900px;
+left:5%;
+right:5%;
+height:auto;
+background-color:gold;
+width:96%;
+margin:1%;
+color:black;
+}
+
+h5{
+color:red;
+}
+
+
+#anakin
+{
+min-width:1000px;
+border:solid 1px white;
+top:5%;
+left:5%;
+right:5%;
+height:450px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+
+#obiwan
+{
+min-width:1000px;
+border:solid 1px white;
+top:450px;
+left:5%;
+right:5%;
+height:350px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+#padme
+{
+min-width:1000px;
+border:solid 1px white;
+top:900px;
+left:5%;
+right:5%;
+height:370px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+#jar
+{
+min-width:1000px;
+border:solid 1px white;
+top:900px;
+left:5%;
+right:5%;
+height:350px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+
+#leila
+{
+min-width:1000px;
+border:solid 1px white;
+top:900px;
+left:5%;
+right:5%;
+height:350px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+#luke
+{
+min-width:1000px;
+border:solid 1px white;
+top:900px;
+left:5%;
+right:5%;
+height:350px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+
+#ian
+{
+min-width:1000px;
+border:solid 1px white;
+top:900px;
+left:5%;
+right:5%;
+height:350px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+
+#palpatine
+{
+min-width:1000px;
+border:solid 1px white;
+top:900px;
+left:5%;
+right:5%;
+height:400px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+#c3
+{
+min-width:1000px;
+border:solid 1px white;
+top:900px;
+left:5%;
+right:5%;
+height:350px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+#r2
+{
+min-width:1000px;
+border:solid 1px white;
+top:900px;
+left:5%;
+right:5%;
+height:350px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+
+#chew
+{
+min-width:1000px;
+border:solid 1px white;
+top:900px;
+left:5%;
+right:5%;
+height:350px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}#yoda
+{
+min-width:1000px;
+border:solid 1px white;
+top:900px;
+left:5%;
+right:5%;
+height:350px;
+background-color:black;
+width:96%;
+margin:1%;
+padding:1%;
+}
+
+#prem
+{
+padding-bottom:120px;
+display:none;
+height:auto;
+font-size:20px;
+padding:10px;
+position:absolute;
+top:450px;
+left:20px;
+right:20px;
+min-width:1000px;
+border:5px solid blue;
+background:gray;
+color:gold;
+}
+
+
+#suono
+{
+position:absolute;
+top:1150px;
+left:5%;
+right:5%;
+height:80px;
+width:90%;
+min-width:1000px;
+padding:5px;
+}
+
+#spadatutto
+{
+position: relative;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+   
+height:110px;
+width:90%;
+min-width:1020px;
+
+
+}
+
+#spada
+{
+float:left;
+display:none;
+position:relative;
+}
+
+#c
+{
+border: solid 1px cyan;
+top:10px;
+display:none;
+height:80px;
+position:absolute;
+left:398px;
+right:5%;
+width:calc(100% - 405px);
+background:#00B5E7;
+border-top-right-radius:20px;
+	-moz-border-top-right-radius:20px;
+    -webkit-border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    -moz-border-bottom-left-radius:20px;
+}
+
+#spazio
+{
+height:150px;
+}
+

@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//IT" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html style="cursor: url(cursor.cur), pointer">
+<head>
+	<title>Star Wars</title>
+	<link  rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+	<script src="./jquery-2.0.3.js"></script>
+	<script>
+$(document).ready(function() {
+  $( "#intest" ).show( "slow" )
+  $( "#menu" ).show( "slow" )
+  $( "#corpo" ).show( "slow" )
+  $( "#suono" ).show( "slow" )
+  $( "#spada" ).show( "slow" )
+  
+  $("#film").mouseover(function(){
+    $(this).css("background-color","gold");
+  });
+  $("#film").mouseout(function(){
+    $(this).css("background-color","black");
+  });
+  
+  $("#pers").mouseover(function(){
+    $(this).css("background-color","gold");
+  });
+  $("#pers").mouseout(function(){
+    $(this).css("background-color","black");
+  });
+  
+  $("#premi").mouseover(function(){
+    $(this).css("background-color","gold");
+  });
+  $("#premi").mouseout(function(){
+    $(this).css("background-color","black");
+  });
+  
+  $("#imm").mouseover(function(){
+    $(this).css("background-color","gold");
+  });
+  $("#imm").mouseout(function(){
+    $(this).css("background-color","black");
+  });
+  
+  $("#spada").click(function(){
+	
+    $("#c").show( "slow" );
+
+  });
+
+});
+</script>
+
+</head>
+	<body background="img/sfondo.jpg" >
+		<a href="index.htm">
+		<div id="intest">
+
+			<img src="img/logo.jpg" />
+
+
+		</div>
+		</a>
+		
+		<div id="menu">
+			<a href="film.htm">
+			<div id="film">
+			
+			Film
+			
+			</div>
+		</a>
+		
+		<a href="pers.htm">
+			<div id="pers">
+			
+			Personaggi
+			
+			</div>
+		</a>
+		
+		<a href="premi.htm">
+			<div id="premi">
+			
+			Premi
+			
+			</div>
+		</a>
+		
+		<a href="imm.htm">
+			<div id="imm">
+			
+			Immagini
+			
+			</div>
+		</a>
+			
+			
+
+
+		</div>
+		
+		
+		<div id="corpo">
+
+			<div class="imagegallery">
+    <ul>
+      <li><img src="img/1.PNG" alt=""  /></li>
+      <li><img src="img/2.jpg" alt="" /></li>
+      <li><img src="img/3.jpg" alt="" alt="" /></li>
+      <li><img src="img/4.jpg" alt="" /></li>
+      <li><img src="img/6.jpg" alt="" /></li>
+	  <li><img src="img/7.jpg" alt="" /></li>
+	  <li><img src="img/8.jpg" alt="" /></li>
+	  <li><img src="img/9.jpg" alt="" /></li>
+	  <li><img src="img/10.jpg" alt="" /></li>
+	  <li><img src="img/11.jpg" alt="" /></li>
+	  <li><img src="img/12.png" alt="" /></li>
+	  <li><img src="img/13.jpg" alt="" /></li>
+	  <li><img src="img/14.jpg" alt="" /></li>
+	  <li><img src="img/15.jpg" alt="" /></li>
+	  <li><img src="img/16.jpg" alt="" /></li>
+	  <li><img src="img/17.jpg" alt="" /></li>
+    </ul>
+  </div>
+		
+		
+	<div id="spadatutto">
+			<img id="spada" src="img/spada.png"/>
+			
+			<div id="c">
+			
+			<p align="center">&copy Gambarara Alberto ( Informazioni tratte da "Wikipedia.org").</p>
+			
+			</div>
+			</div>
+			</div>
+</body>
+
+
+
+
+</html>
+
+
+
+
+	
